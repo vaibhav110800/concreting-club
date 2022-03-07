@@ -28,13 +28,13 @@ function App() {
         <div className="sec1-top">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="2000">
+              <div class="carousel-item active" data-bs-interval="4000">
                 <img src="./images/1.banner/1.jpg" class="d-block w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item" data-bs-interval="4000">
                 <img src="./images/1.banner/2.jpg" class="d-block w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item" data-bs-interval="4000">
                 <img src="./images/1.banner/3.jpg" class="d-block w-100" alt="..." />
               </div>
             </div>

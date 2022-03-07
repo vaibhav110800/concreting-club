@@ -130,25 +130,30 @@ a{
     min-height: 100vh;
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sec1-top{
   position: absolute;
+  top: 0;
   background-color: #d8d2cb;
   width: 100%;
   min-height: 80vh;
 }
 .sec1-top img{
   height: 80vh;
+  object-fit: cover;
+  background-position: 50% 50%;
 }
 .sec1-bottom{
-  border-radius: 12px;
-  left: 15%;
-  top: 20%;
   position: absolute;
+  top: 20%;
   background-color: whitesmoke;
   width: 1200px;
   min-height: 75vh;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px;
+  border-radius: 12px;
   display: flex;
 }
 
