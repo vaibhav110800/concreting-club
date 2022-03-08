@@ -71,12 +71,96 @@ function App() {
 
       {/* ----------------------- sec 2 --------------------- */}
 
-      <div className="sec2">
+      <div class="dom-sec1">
+        <div class="dom-sec1-box-1"></div>
+        <div class="dom-sec1-box-head">Best Products</div>
 
+        <div class="dom-sec1-box-main">
+          <div class="dom-sec1-box2">
+            <div class="dom-sec1-box2-inner">
+              <div class="dom-sec1-box2-inner1"></div>
+              <div class="dom-sec1-box2-inner2">
+                <div class="dom-sec1-box2-inner2i">BEST DEALERS <br />IN PAVING</div>
+              </div>
+              <div class="dom-sec1-box2-inner3"></div>
+            </div>
+          </div>
+          <div class="dom-sec1-box3"></div>
+          <div class="dom-sec1-box4">
+            <div class="dom-sec1-box4-top">QUALITY WORK</div>
+            <div class="dom-sec1-box4-bottom"><h3 href="">LOREM IPSUM</h3></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dom-sec2">
+        <div class="dom-sec2-head">
+          <div class="dom-sec2-head-inner">ELEGANT DESIGN</div>
+        </div>
+        <div class="dom-sec2-para">
+          <div class="dom-sec2-para-inner">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam enim,
+            obcaecati laudantium ad hic illo quam adipisci. Impedit, perferendis. Eos illum facilis odio at quis
+            ipsum velit, minus reprehenderit praesentium.</div>
+        </div>
+        <button><a href="">READ MORE</a></button>
       </div>
 
 
       {/* ----------------------- sec 3 --------------------- */}
+
+      <div class="dom-sec6">
+        <h1>Our Services</h1>
+
+        <div class="dom-sec6-box1">
+          <div class="dom-sec6-box1-left">
+            <div class="dom-sec6-box1-left-inner">
+              <div class="dom-sec6-box1-left-h">Concrete Paving</div>
+              <div class="dom-sec6-box1-left-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur, commodi explicabo ducimus beatae iusto enim eaque alias dolorem ex delectus earum
+                cupiditate quasi aliquam reprehenderit nisi aperiam provident incidunt ab!</div>
+            </div>
+          </div>
+          <div class="dom-sec6-box1-right"></div>
+        </div>
+
+        <div class="dom-sec6-box2">
+          <div class="dom-sec6-box2-left"></div>
+          <div class="dom-sec6-box2-right">
+            <div class="dom-sec6-box2-right-inner">
+              <div class="dom-sec6-box2-right-h">Brick Paving</div>
+              <div class="dom-sec6-box2-right-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur, commodi explicabo ducimus beatae iusto enim eaque alias dolorem ex delectus earum
+                cupiditate quasi aliquam reprehenderit nisi aperiam provident incidunt ab!</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dom-sec6-box1">
+          <div class="dom-sec6-box1-left">
+            <div class="dom-sec6-box1-left-inner">
+              <div class="dom-sec6-box1-left-h">Aggregate Paving</div>
+              <div class="dom-sec6-box1-left-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur, commodi explicabo ducimus beatae iusto enim eaque alias dolorem ex delectus earum
+                cupiditate quasi aliquam reprehenderit nisi aperiam provident incidunt ab!</div>
+            </div>
+          </div>
+          <div class="dom-sec6-box1-right"></div>
+        </div>
+
+        <div class="dom-sec6-box2">
+          <div class="dom-sec6-box2-left"></div>
+          <div class="dom-sec6-box2-right">
+            <div class="dom-sec6-box2-right-inner">
+              <div class="dom-sec6-box2-right-h">Colored Concrete Paving</div>
+              <div class="dom-sec6-box2-right-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur, commodi explicabo ducimus beatae iusto enim eaque alias dolorem ex delectus earum
+                cupiditate quasi aliquam reprehenderit nisi aperiam provident incidunt ab!</div>
+            </div>
+          </div>
+        </div>
+
+        <button><a href="">READ MORE</a></button>
+      </div>
 
 
       {/* ----------------------- sec 4 --------------------- */}
