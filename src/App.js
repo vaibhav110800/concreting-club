@@ -1,4 +1,5 @@
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   return (
@@ -105,7 +106,6 @@ function App() {
         <button><a href="">READ MORE</a></button>
       </div>
 
-
       {/* ----------------------- sec 3 --------------------- */}
 
       <div class="dom-sec6">
@@ -162,20 +162,191 @@ function App() {
         <button><a href="">READ MORE</a></button>
       </div>
 
+      {/* ----------------------- sec 5 --------------------- */}
+      <div className="sec5">
+        <h2>TESTIMONIALS</h2>
+        <h1>See what our clients say about us!!</h1>
+        <div className="wrapper">
+
+          <div className="box">
+            <i className="fas fa-quote-left quote"></i>
+            <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+            <div className="content">
+              <div className="info">
+                <div className="name">Vaibhav</div>
+                <div className="job">Web Developer</div>
+                <div className="stars">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="far fa-star"></i>
+                </div>
+              </div>
+              <div className="image">
+                <img src="./images/5.testimonials/1.jfif" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="box">
+            <i className="fas fa-quote-left quote"></i>
+            <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+            <div className="content">
+              <div className="info">
+                <div className="name">Kaustubh</div>
+                <div className="job">Software Engineer</div>
+                <div className="stars">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                </div>
+              </div>
+              <div className="image">
+                <img src="./images/5.testimonials/2.jfif" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="box">
+            <i className="fas fa-quote-left  quote"></i>
+            <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+            <div className="content">
+              <div className="info">
+                <div className="name">Ankush</div>
+                <div className="job">Freelancer</div>
+                <div className="stars">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="far fa-star"></i>
+                </div>
+              </div>
+              <div className="image">
+                <img src="./images/5.testimonials/3.jfif" alt="" />
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
 
       {/* ----------------------- sec 4 --------------------- */}
+      <div className="sec4">
+        <div className="sec4-l">
+          <h1>Our Works</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eaque asperiores suscipit vel fugit ut! Consequuntur velit hic,
+            vel praesentium aut nobis tempore, rerum repellendus tenetur
+            ibero, impedit omnis sit expedita!</p>
+        </div>
+
+        <div className="sec4-r">
+          <div className="sec4-box">
+            <div className="sec4-box-l">
+              <img src="./images/1.banner/1.jpg" alt="" />
+              <img src="./images/1.banner/1.jpg" alt="" />
+              <img src="./images/1.banner/1.jpg" alt="" />
+              <img src="./images/1.banner/1.jpg" alt="" />
+            </div>
+            <div className="sec4-box-r">
+              <h1>Type of Work</h1>
+              <div className="sec4-address">
+                <i class="fas fa-map-marker-alt"></i>
+                <h2>XYZ street, abc town, klj city</h2>
+              </div>
+            </div>
+          </div>
+          <div className="sec4-box">
+            <div className="sec4-box-l">
+              <img src="./images/1.banner/2.jpg" alt="" />
+              <img src="./images/1.banner/2.jpg" alt="" />
+              <img src="./images/1.banner/2.jpg" alt="" />
+              <img src="./images/1.banner/2.jpg" alt="" />
+            </div>
+            <div className="sec4-box-r">
+              <h1>Type of Work</h1>
+              <div className="sec4-address">
+                <i class="fas fa-map-marker-alt"></i>
+                <h2>XYZ street, abc town, klj city</h2>
+              </div>
+            </div>
+          </div>
+          <div className="sec4-box">
+            <div className="sec4-box-l">
+              <img src="./images/1.banner/3.jpg" alt="" />
+              <img src="./images/1.banner/3.jpg" alt="" />
+              <img src="./images/1.banner/3.jpg" alt="" />
+              <img src="./images/1.banner/3.jpg" alt="" />
+            </div>
+            <div className="sec4-box-r">
+              <h1>Type of Work</h1>
+              <div className="sec4-address">
+                <i class="fas fa-map-marker-alt"></i>
+                <h2>XYZ street, abc town, klj city</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="sec4-button">
+        <button><a href="">VIEW ALL</a></button>
+      </div>
 
 
-      {/* ----------------------- sec 5 --------------------- */}
-
-
-      {/* ----------------------- sec 6 --------------------- */}
-
-
-      {/* ----------------------- sec 7 --------------------- */}
 
 
       {/* ----------------------- footer --------------------- */}
+      <div class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequuntur maxime aut neque eveniet nisi consequatur nihil necessitatibus ipsum accusamus deleniti enim voluptates ullam iure est perspiciatis, perferendis eaque esse.</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <h6>Recent Works</h6>
+              <ul class="footer-links">
+                <li><a href="">work 1</a></li>
+                <li><a href="">work 2</a></li>
+                <li><a href="">work3</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Brochure</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+                <a href="#"> Concreting Club</a>.
+              </p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 

@@ -555,3 +555,374 @@ a{
 .dom-sec6 button:hover a{
   color: #eeeeee;
 }
+
+/* ---------------------------- sec4 ----------------------------- */
+
+.sec4{
+  width: 1400px;
+  margin: 4% auto 2% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec4-l{
+  flex-basis: 40%;
+}
+.sec4-l h1{
+  font-family: 'Archivo Black', sans-serif;
+  color: #1C658C;
+  font-size: 60px;
+}
+.sec4-l p{
+  font-family: 'Raleway', sans-serif;
+  color: #1C658C;
+  font-size: 16px;
+  text-align: justify;
+  padding-right: 5%;
+}
+.sec4-r{
+  flex-basis: 60%;
+}
+.sec4-box{
+  background-color: #eeeeee;
+  display: flex;
+  margin-bottom: 3%;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.sec4-box-l{
+  flex-basis: 50%;
+}
+.sec4-box-l img{
+  width: 200px;
+  padding: 1%;
+}
+.sec4-box-r{
+  flex-basis: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sec4-box-r h1{
+  font-family: 'Archivo Black', sans-serif;
+  color: #1C658C;
+  font-size: 40px;
+}
+.sec4-address{
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+}
+.sec4-address i.fas{
+  font-size: 25px;
+  padding-right:2%;
+  color: #1C658C;
+}
+.sec4-address h2{
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: #1C658C;
+  font-size: 18px;
+  text-align: justify;
+  padding-right: 5%;
+}
+.sec4-box-r i{
+  display: block;
+  font-size: 40px;
+}
+.sec4-button{
+  text-align: center;
+}
+.sec4-button button{
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  background-color: #1C658C;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  width: 200px;
+  height: 60px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: .2s ease-in-out;
+}
+.sec4-button button a{
+  background-color: #1C658C;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  transition: .2s ease-in-out;
+}
+.sec4-button button:hover a{
+  color: #eeeeee;
+}
+
+/* ------------------------- sec 5 --------------------------- */
+.sec5{
+  font-family: 'Raleway', sans-serif;
+  display: grid;
+  min-height: 500px;
+  place-items: center;
+  background: #1c658c;
+}
+.sec5 h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: #d8d2cb;
+  padding-top: 3%;
+  padding-bottom: 0%;
+}
+.sec5 h1{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 50px;
+  color: white;
+  padding-bottom: 2%;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .box{
+  background: #fff;
+  width: calc(33% - 10px);
+  padding: 25px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+.wrapper .box i.quote{
+  font-size: 20px;
+  color: #1c658c;
+}
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box .info .name{
+  font-weight: 600;
+  font-size: 17px;
+}
+.box .info .job{
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c658c;
+}
+.box .info .stars{
+  margin-top: 2px;
+}
+.box .info .stars i{
+  color: #1c658c;
+}
+.box .content .image{
+  height: 75px;
+  width: 75px;
+  padding: 3px;
+  background: #1c658c;
+  border-radius: 50%;
+}
+.content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.box:hover .content .image img{
+  border-color: #fff;
+}
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
+  }
+}
+
+/* ---------------------- footer ---------------------------- */
+
+.site-footer
+{
+  background-color:#1C658C;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.row p{
+  text-align: justify;
+  width: 90%;
+  color: white !important;
+  font-family: 'Raleway', sans-serif;
+}
+.site-footer hr
+{
+  border-top-color:white !important;
+  opacity:0.5;
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  font-family: 'Archivo Black', sans-serif;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:white;
+}
+.site-footer a:hover
+{
+  color:#eeeeee;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:white
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  font-family: 'Raleway', sans-serif;
+  color:#eeeeee;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#398ab9;
+  color: white !important;
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
