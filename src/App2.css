@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:wght@600&display=swap');
+
+/* 
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Raleway', sans-serif; 
+*/
+
+html, body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    letter-spacing: 1.5px; 
+    /* overflow: visible; */
+    /* overflow-y: scroll; */
+}
+
+* {
+    box-sizing: border-box;
+  }
+*:focus {
+    outline: none;
+}
+button:focus {outline:0;}
+a{
+  text-decoration: none;
+}
+
+/* ------------------------------- sec1 ---------------------------------- */
+.abt1{
+    min-height: 80vh;
+    display: flex;
+}
+.abt1-l{
+    flex-basis: 70%;
+    background:linear-gradient(0deg, rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)),url(../public/images/6.about-us-page/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.abt1-inner{
+    width: 60%;
+    margin: 0 auto;
+}
+.abt1-inner h1{
+    font-family: 'Archivo Black', sans-serif;
+    color: #1c658c;
+    font-size: 72px;
+}
+.abt1-inner h2{
+    font-family: 'Raleway', sans-serif;
+    color: #398ab9;
+    font-size: 30px;
+}
+.abt1-inner p{
+    font-family: 'Raleway', sans-serif;
+    color: #1c658c;
+    font-size: 16px;
+    width: 80%;
+    text-align: justify;
+}
+
+.abt1-inner button{
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    background-color: #1C658C;
+    margin-top: 1%;
+    width: 200px;
+    height: 60px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: .2s ease-in-out;
+  }
+  .abt1-inner button a{
+    background-color: #1C658C;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    transition: .2s ease-in-out;
+  }
+  .abt1-inner button:hover a{
+    color: #eeeeee;
+  }
+
+.abt1-r{
+    display: flex;
+    flex-direction: column;
+}
+.abt1-r-t{
+    flex-basis: 60%;
+    background:url(../public/images/6.about-us-page/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.abt1-r-b{
+    flex-basis: 40%;
+    background:#398ab9;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.abt1-r-b h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    padding-left: 3%;
+}
+.abt1-r-b p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 70%;
+    text-align: justify;
+    padding-left: 3%;
+}
+
+/* ------------------------- sec2-------------------------- */
+.abt2{
+    background-color: wheat;
+    min-height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+}

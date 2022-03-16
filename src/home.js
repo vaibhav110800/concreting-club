@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Menubar from "./components/menubar";
 import Footer from "./components/footer";
 

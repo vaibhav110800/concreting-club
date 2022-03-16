@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./components/footer";
 import Menubar from "./components/menubar";
 
-const Team = () => {
+const Services = () => {
   return (
     <div>
       <Menubar />
@@ -11,4 +11,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Services;
