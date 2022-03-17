@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:wght@600&display=swap');
+
+/* 
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Raleway', sans-serif; 
+*/
+
+html, body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    letter-spacing: 1.5px; 
+    /* overflow: visible; */
+    /* overflow-y: scroll; */
+}
+
+* {
+    box-sizing: border-box;
+  }
+*:focus {
+    outline: none;
+}
+button:focus {outline:0;}
+a{
+  text-decoration: none;
+}
+
+/* ------------------------------- sec1 ---------------------------------- */
+.work1{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.work1 h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    color: #1c658c;
+}
+.work1 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 1000px;
+    text-align: justify;
+    color: #398ab9;
+}
+

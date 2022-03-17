@@ -39,16 +39,26 @@ const About = () => {
           <img src="./images/6.about-us-page/3.jpg" alt="" />
         </div>
         <div className="abt2-r">
-          <h2>In business with Perfection</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Nulla alias necessitatibus unde tempora tenetur. Aspernatur
-            optio quidem id quas est, doloremque sequi, dicta
-            consequuntur dolorum adipisci ratione, ullam quos ex.
-          </p>
-          <button>
-            <a href="">Contact Us</a>
-          </button>
+          <div className="abt2-r-inner">
+            <h2>In business with Perfection</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Nulla alias necessitatibus unde tempora tenetur. Aspernatur
+              optio quidem id quas est, doloremque sequi, dicta
+              consequuntur dolorum adipisci ratione, ullam quos ex.
+            </p>
+            <button>
+              <a href="">Contact Us</a>
+            </button>
+          </div>
+
         </div>
+      </div>
+
+      {/* ------------------- sec3 -------------------- */}
+      <div className="abt3">
+        <h1>About the company</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam temporibus laborum autem necessitatibus molestias, quasi itaque commodi quas suscipit sit hic exercitationem asperiores! Autem amet libero officiis harum, aliquam cupiditate?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ea, nisi earum non voluptas maiores amet harum placeat itaque. Deserunt quisquam officia illum minus repudiandae voluptatum magnam autem culpa recusandae!</p>
       </div>
 
       <Footer />

@@ -582,6 +582,7 @@ a{
   flex-basis: 60%;
 }
 .sec4-box{
+  width: 850px;
   background-color: #eeeeee;
   display: flex;
   margin-bottom: 3%;
