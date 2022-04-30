@@ -1031,7 +1031,53 @@ label.logo {
   }
 }
 
-/* ----------------- our services page ---------------------  */
+/* ----------------- our services page -------------------  */
+.os-1 {
+  /* background-color: #29aafe; */
+  margin: 6% auto 2% auto;
+  min-height: 350px;
+  width: 1200px;
+  display: flex;
+}
+
+.os-l {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.os-l-h {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 80px;
+  color: #007bb6;
+}
+
+.os-r {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.os-r-p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #007bb6;
+}
+
+.os-2 {
+  text-align: center;
+
+}
+
+.os-2 h3 {
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+  padding-bottom: 4%;
+  color: #1C658C;
+  font-size: 20px;
+}
 
 /* ----------------- contact us page ---------------------  */
 
