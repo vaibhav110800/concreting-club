@@ -1,7 +1,17 @@
+import React, { useState, useEffect } from "react";
 import Menubar from "./components/menubar";
 import Footer from "./components/footer";
-
+import db from "./firebase";
 function Home() {
+  const [works, setWorks] = useState([]);
+  useEffect((e) => {
+    db.collection("works")
+      .limit(3)
+      .orderBy("timestamp", "desc")
+      .onSnapshot((message) => {
+        setWorks(message.docs.map((doc) => ({ id: doc.id, data: doc.data() })));
+      });
+  }, []);
   return (
     <div className="App">
       {/* -------------- navbar ------------ */}
@@ -299,51 +309,47 @@ function Home() {
         </div>
 
         <div className="sec4-r">
-          <div className="sec4-box">
-            <div className="sec4-box-l">
-              <img src="./images/1.banner/1.jpg" alt="" />
-              <img src="./images/1.banner/1.jpg" alt="" />
-              <img src="./images/1.banner/1.jpg" alt="" />
-              <img src="./images/1.banner/1.jpg" alt="" />
-            </div>
-            <div className="sec4-box-r">
-              <h1>Type of Work</h1>
-              <div className="sec4-address">
-                <i class="fas fa-map-marker-alt"></i>
-                <h2>XYZ street, abc town, klj city</h2>
+          {works.map((work) => (
+            <div className="sec4-box">
+              <div className="sec4-box-l">
+                {work.data.image1 && (
+                  <img
+                    style={{ height: "200px", objectFit: "cover" }}
+                    src={work.data.image1}
+                    alt="1"
+                  />
+                )}
+                {work.data.image2 && (
+                  <img
+                    style={{ height: "200px", objectFit: "cover" }}
+                    src={work.data.image2}
+                    alt="2"
+                  />
+                )}
+                {work.data.image3 && (
+                  <img
+                    style={{ height: "200px", objectFit: "cover" }}
+                    src={work.data.image3}
+                    alt="3"
+                  />
+                )}
+                {work.data.image4 && (
+                  <img
+                    style={{ height: "200px", objectFit: "cover" }}
+                    src={work.data.image4}
+                    alt="4"
+                  />
+                )}
+              </div>
+              <div className="sec4-box-r">
+                <h1>{work.data.work}</h1>
+                <div className="sec4-address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <h2>{work.data.location}</h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="sec4-box">
-            <div className="sec4-box-l">
-              <img src="./images/1.banner/2.jpg" alt="" />
-              <img src="./images/1.banner/2.jpg" alt="" />
-              <img src="./images/1.banner/2.jpg" alt="" />
-              <img src="./images/1.banner/2.jpg" alt="" />
-            </div>
-            <div className="sec4-box-r">
-              <h1>Type of Work</h1>
-              <div className="sec4-address">
-                <i class="fas fa-map-marker-alt"></i>
-                <h2>XYZ street, abc town, klj city</h2>
-              </div>
-            </div>
-          </div>
-          <div className="sec4-box">
-            <div className="sec4-box-l">
-              <img src="./images/1.banner/3.jpg" alt="" />
-              <img src="./images/1.banner/3.jpg" alt="" />
-              <img src="./images/1.banner/3.jpg" alt="" />
-              <img src="./images/1.banner/3.jpg" alt="" />
-            </div>
-            <div className="sec4-box-r">
-              <h1>Type of Work</h1>
-              <div className="sec4-address">
-                <i class="fas fa-map-marker-alt"></i>
-                <h2>XYZ street, abc town, klj city</h2>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
       <div className="sec4-button">
